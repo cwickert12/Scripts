@@ -2,9 +2,8 @@
 import sys
 sys.path.append('/home/cwickert/ENDFtk/build/')  # Add ENDFtk build path to import the module
 
-# Import the ENDFtk library for ENDF file parsing and matplotlib for plotting (though not used in this script)
+# Import the ENDFtk library for ENDF file parsing 
 import ENDFtk
-import matplotlib.pyplot as plt
 import numpy as np
 import writeInputRECONR
 import AddAngularDist
